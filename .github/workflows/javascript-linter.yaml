@@ -1,0 +1,11 @@
+name: JavaScript ESLinter on pull requests
+on: pull_request
+jobs:
+  eslinter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download repo to runner
+        uses: actions/checkout@v6.0.2
+
+      - name: Run ESLint
+        run: eslint . --ext .js, .jsx, .ts. .tsx
