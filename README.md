@@ -1,6 +1,6 @@
 # ESLinter CI
 
-Automatically check Javascript and Typescript code style (Linting) and formatting on every Pull Request.
+Automatically check Javascript and Typescript code style (Linting) and formatting on every `pull request`.
 
 Use the official [EsLint docs](https://eslint.org/docs/latest/use/getting-started#installation-and-usage) to setup **ESLint configuration file**.
 
