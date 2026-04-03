@@ -7,8 +7,8 @@ jobs:
       - name: Download repo to runner
         uses: actions/checkout@v6.0.2
 
-      - name: Install project modules
+      - name: Install project depencies
         run: npm i
 
       - name: Run ESLint
-        run: eslint . --ext .js
+        run: npx eslint *.js
